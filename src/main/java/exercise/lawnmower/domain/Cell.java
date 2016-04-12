@@ -29,10 +29,10 @@ public class Cell
     private final List<Lawnmower> _lawnmowers = new ArrayList<>();
 
     /**
-     * Greater than zero
+     * Create a new Cell object with in the given row and column.
      * 
-     * @param row
-     * @param col
+     * @param row the row's number. It must be greater than zero
+     * @param col the column's number. It must be greater than zero
      */
     public Cell(int row, int col)
     {
