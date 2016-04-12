@@ -50,7 +50,7 @@ public class Main
         @Parameter(names = { "--parallel"}, 
                    required = false, 
                    converter = BooleanConverter.class, 
-                   description = "if it must try to execute the lawn mowers in parallel. The order is not guarantee (experimental)")
+                   description = "if it must try to execute the lawn mowers in parallel. It does not guarantee the order.")
         private boolean _parallel;
     }
 
